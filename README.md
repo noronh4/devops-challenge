@@ -74,5 +74,7 @@ kubectl get svc
 ## 4. "Descer" o projeto
 
 ```
+kubectl delete -f lifters-deploy.yaml
+kubectl delete -f lifters-service.yaml
 terraform destroy
 ```
