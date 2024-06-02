@@ -14,7 +14,7 @@
 #### OBS: Os acessos necessários estão no arquivo user1_accessKeys.csv
 
 
-## 3. Dockerizar aplicação e fazer o push para o ECR(deixei criado previamente)
+## 3. Dockerizar aplicação e fazer o push para o ECR(deixei o registry criado previamente)
 **OBS: Para que o Docker envie a imagem para o ECR, primeiro precisamos autenticar nossas credenciais do Docker com a AWS**
 ```
 TOKEN=$(aws ecr get-login-password --region us-east-1)
