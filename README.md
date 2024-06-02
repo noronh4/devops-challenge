@@ -1,6 +1,6 @@
 # Lifters devops-challenge 
 
-## 1. Vamos instalar os comando que iremos utilizar para a execução deste desafio:
+## 1. Vamos instalar os comandos que iremos utilizar para a execução deste desafio:
 - [Aws CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - [Docker](https://docs.docker.com/engine/install/ubuntu/)
 - [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
