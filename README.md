@@ -70,3 +70,9 @@ kubectl get svc
 #### E após uns 5 minutos já conseguiremos realizar a requisição via browser ou curl
 
 ![Image 2](./imagens/2.png)
+
+## 4. "Descer" o projeto
+
+```
+terraform destroy
+```
