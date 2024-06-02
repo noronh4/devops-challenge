@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lifters-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lifters
+  template:
+    metadata:
+      labels:
+        app: lifters
+    spec:
+      containers:
+      - name: lifters
+        image: 339713063030.dkr.ecr.us-east-1.amazonaws.com/lifters-ecr:latest # Substitua pelo URL da sua imagem no ECR
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: ecr-registry-secret
