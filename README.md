@@ -35,7 +35,7 @@ terraform init
 terraform apply
 ```
 
-## 5. Fazer o update do ~/.kube/config para conseguirmos acessar o cluster recém criado
+## 5. Fazer o update do ~/.kube/config para ter acesso ao cluster recém criado
 
 ```
 aws eks --region us-east-1 update-kubeconfig --name lifters-eks-cluster --profile default
